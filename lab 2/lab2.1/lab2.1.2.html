@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Form đăng ký</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form class="login-form">
+
+        <label for="fullname"><b>HỌ VÀ TÊN:</b></label>
+        <input type="text" id="fullname" name="fullname">
+
+        <p>
+            <b>GIỚI TÍNH:</b>
+            <input type="radio" id="nam" name="gender" value="Nam">
+            <label for="nam">NAM</label>
+
+            <input type="radio" id="nu" name="gender" value="Nữ">
+            <label for="nu">NỮ</label>
+        </p>
+
+        <label for="image"><b>HÌNH ẢNH:</b></label>
+        <input type="file" id="image" name="image">
+
+        <label for="country"><b>QUỐC TỊCH:</b></label>
+        <select id="country" name="country">
+            <option value="United States">United States</option>
+            <option value="Vietnam">Vietnam</option>
+            <option value="Japan">Japan</option>
+            <option value="Korea">Korea</option>
+        </select>
+
+        <p>
+            <b>SỞ THÍCH:</b><br>
+
+            <input type="checkbox" id="thethao" name="hobby" value="The thao">
+            <label for="thethao">THỂ THAO</label>
+
+            <input type="checkbox" id="dulich" name="hobby" value="Du lich">
+            <label for="dulich">DU LỊCH</label>
+
+            <input type="checkbox" id="amnhac" name="hobby" value="Am nhac">
+            <label for="amnhac">ÂM NHẠC</label>
+
+            <input type="checkbox" id="amthuc" name="hobby" value="Am thuc">
+            <label for="amthuc">ẨM THỰC</label>
+        </p>
+
+        <label for="note"><b>GHI CHÚ:</b></label>
+        <textarea id="note" name="note"></textarea>
+
+        <hr>
+
+        <input type="submit" value="Đăng ký">
+        <input type="reset" value="Nhập lại">
+
+    </form>
+
+</body>
+</html>
