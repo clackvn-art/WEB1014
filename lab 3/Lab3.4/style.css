@@ -1,0 +1,26 @@
+.feature_item {
+    width: 25%;
+    text-align: center;
+    border: 2px solid #ff2600;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    transition: var(--mainTransition);
+}
+
+.feature_title {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #698f3f;
+}
+
+.feature_text {
+    font-size: 1.6rem;
+    color: #3a3e3b;
+}
+
+#features {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
